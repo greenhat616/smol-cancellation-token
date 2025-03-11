@@ -2,6 +2,10 @@
 name = "smol-cancellation-token"
 version = "0.1.0"
 edition = "2024"
+description = "A simple cancellation token implementation for Smol, copied from tokio-util's cancellation token, and replace the `waker` with `EventListener` to make it cross async runtime compatible."
+license = "MIT"
+authors = ["Petard Jonson <i@a632079.me>"]
+repository = "https://github.com/greenhat616/smol-cancellation-token"
 
 [lib]
 doctest = false
