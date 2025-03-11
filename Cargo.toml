@@ -1,8 +1,14 @@
 [package]
-name = "smol-cancel-token"
+name = "smol-cancellation-token"
 version = "0.1.0"
 edition = "2024"
+
+[lib]
+doctest = false
 
 [dependencies]
 event-listener = "5"
 pin-project-lite = "0.2"
+
+[dev-dependencies]
+futures = "0.3"

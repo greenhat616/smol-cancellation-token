@@ -3,6 +3,8 @@
 pub(crate) mod guard;
 mod tree_node;
 mod util;
+#[cfg(test)]
+mod test;
 
 use crate::util::MaybeDangling;
 use core::future::Future;
